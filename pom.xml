@@ -4,7 +4,7 @@
 
 	<groupId>com.surenpi.autotest</groupId>
 	<artifactId>autotest.code.generator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-20170714</version>
 
 	<parent>
 		<groupId>com.surenpi.autotest</groupId>
@@ -14,12 +14,16 @@
 
 	<name>autotest.code.generator</name>
 	<description>自动化测试代码生成</description>
-
+    
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
