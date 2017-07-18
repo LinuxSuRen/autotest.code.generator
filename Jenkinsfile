@@ -1,7 +1,7 @@
 node {
   def mvnHome
   stage('Preparation') {
-    git 'https://github.com/LinuxSuRen/autotest.report.jira.git'
+    git 'https://github.com/LinuxSuRen/autotest.code.generator.git'
     mvnHome = tool 'M3'
   }
   
