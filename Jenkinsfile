@@ -21,3 +21,22 @@ node {
     }
   }
 }
+
+properties([
+    [
+        $class: 'GithubProjectProperty',
+        displayName: 'autotest.code.generator',
+        projectUrlStr: 'https://github.com/LinuxSuRen/autotest.code.generator'
+    ],
+    buildDiscarder(
+        logRotator(
+            artifactDaysToKeepStr: '',
+            artifactNumToKeepStr: '',
+            daysToKeepStr: '7',
+            numToKeepStr: '14'
+        )
+    ),
+    pipelineTriggers([
+        pollSCM('H/15 * * * *')
+    ])
+])
