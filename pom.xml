@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -9,7 +8,7 @@
 	</parent>
 
 	<artifactId>autotest.code.generator</artifactId>
-	<version>1.0.0-20170817-SNAPSHOT</version>
+	<version>1.0.1</version>
 
 	<name>autotest.code.generator</name>
 	<description>自动化测试代码生成</description>
@@ -18,7 +17,7 @@
 		<connection>scm:git:git@github.com:LinuxSuRen/${project.artifactId}.git</connection>
 		<url>scm:git:git@github.com:LinuxSuRen/${project.artifactId}</url>
 		<developerConnection>scm:git:git@github.com:LinuxSuRen/${project.artifactId}.git</developerConnection>
-		<tag>${project.version}</tag>
+		<tag>v1.0.1</tag>
 	</scm>
     
 	<build>
