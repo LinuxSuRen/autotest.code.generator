@@ -8,7 +8,7 @@
 	</parent>
 
 	<artifactId>autotest.code.generator</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 
 	<name>autotest.code.generator</name>
 	<description>自动化测试代码生成</description>
@@ -17,7 +17,7 @@
 		<connection>scm:git:git@github.com:LinuxSuRen/${project.artifactId}.git</connection>
 		<url>scm:git:git@github.com:LinuxSuRen/${project.artifactId}</url>
 		<developerConnection>scm:git:git@github.com:LinuxSuRen/${project.artifactId}.git</developerConnection>
-		<tag>v1.0.1</tag>
+		<tag>${project.version}</tag>
 	</scm>
     
 	<build>
