@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.surenpi.autotest</groupId>
 		<artifactId>autotest.parent</artifactId>
-		<version>1.0.1-20170815-SNAPSHOT</version>
+		<version>1.0.1-20170818</version>
 	</parent>
 
 	<artifactId>autotest.code.generator</artifactId>
@@ -13,6 +13,13 @@
 
 	<name>autotest.code.generator</name>
 	<description>自动化测试代码生成</description>
+
+	<scm>
+		<connection>scm:git:git@github.com:LinuxSuRen/${project.artifactId}.git</connection>
+		<url>scm:git:git@github.com:LinuxSuRen/${project.artifactId}</url>
+		<developerConnection>scm:git:git@github.com:LinuxSuRen/${project.artifactId}.git</developerConnection>
+		<tag>${project.version}</tag>
+	</scm>
     
 	<build>
 		<plugins>
